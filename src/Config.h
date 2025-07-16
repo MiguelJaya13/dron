@@ -264,7 +264,7 @@
  *      BMP280 is the only sensor I have tested and, probably, not the most sensitive one.
  *      In the future, I will test other sensors.
  */
-#define ALTITUDE_SENSOR             BMP280                   // (OFF, BMP280*, BME280**)
+#define ALTITUDE_SENSOR             OFF                   // (OFF, BMP280*, BME280**)
 
 
 
@@ -346,5 +346,5 @@
  *          *) ESP_CAM, uses the ESP32CAM wifi.
  *      See https://github.com/sebastiano123-c/Esp32-cam-telemetry for more details.
  */
-#define WIFI_TELEMETRY              ESP_CAM                   // (OFF, NATIVE, ESP_CAM) set NATIVE if you don't have an ESP32-CAM
+#define WIFI_TELEMETRY              NATIVE                  // (OFF, NATIVE, ESP_CAM) set NATIVE if you don't have an ESP32-CAM
 #define WIFI_BAUD_RATE              115200                    // (9600, 57600, 115200)
